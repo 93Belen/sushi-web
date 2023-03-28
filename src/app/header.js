@@ -54,7 +54,7 @@ export default function Header(){
                     <line x1="2.5" y1="2.5" x2="25.5" y2="2.5" stroke="#E31837" stroke-width="5" stroke-linecap="round"/>
                     <line x1="2.5" y1="11.5" x2="25.5" y2="11.5" stroke="#E31837" stroke-width="5" stroke-linecap="round"/>
                 </svg>
-                <section id='menu-display' className='w-screen h-screen absolute top-[15vh] left-0 flex-col justify-evenly justify-items-center box-border pb-10 hidden bg-myblack'>
+                <section id='menu-display' className='w-screen h-[85vh] absolute top-[15vh] left-0 flex-col justify-evenly justify-items-center box-border pb-10 hidden bg-myblack'>
                     <Link className='m-auto text-2xl' href='/'>Home</Link>
                     <Link className='m-auto text-2xl' href='/'>Guides</Link>
                     <Link className='m-auto text-2xl' href='/'>Our Story</Link>
