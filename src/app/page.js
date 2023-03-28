@@ -55,7 +55,8 @@ useEffect(() => {
 
 
   return (
-    <main className='flex flex-row justify-around min-h-[90vh] box-border'>
+    <main className='h-[85vh] box-border'>
+      <div className='flex flex-row justify-around h-[65vh] box-border'>
       <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
         <div className='neonBorder border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit border-2'>
           <h2 className='hidden md:block'>Leawood</h2>
@@ -100,6 +101,10 @@ useEffect(() => {
       <path id='red-stripe-two' d="M27.7886 65.6073L26.044 63.5496C26.044 63.5496 27.5272 61.3604 29.0587 60.0964C30.5902 58.8324 33.0198 57.7619 33.0198 57.7619L33.8704 58.839L34.7298 59.9012C31.8954 61.1451 29.7508 62.9251 27.7886 65.6073Z" fill="#E31837"/>
      </svg>
       </section>
+      </div>
+      <footer className='h-[20vh] w-full bg-myfooter align-bottom'>
+        <p>Footer</p>
+      </footer>
     </main>
   )
 }
