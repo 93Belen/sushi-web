@@ -33,6 +33,8 @@ export default function Home() {
     document.getElementById('chopstick-two').style.transitionDuration = '2.5s'
     document.getElementById('red-stripe-two').style.transitionDuration = '2.5s'
     document.getElementById('red-stripe-one').style.transitionDuration = '2.5s'
+    document.getElementById('chopstick-one').style.transformOrigin = '30%'
+    document.getElementById('chopstick-two').style.transformOrigin = '30%'
     setTimeout(() => {setMove(() => true)}, 2500)
 
   }
