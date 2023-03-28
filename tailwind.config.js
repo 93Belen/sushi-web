@@ -10,13 +10,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: 'var(--font)',
+      fontFamily: {
+        'sans': 'var(--font)',
+        'h1font': 'var(--h1font'
+      },
       colors: {
-        black: '#2D2626',
-        footer: '#453A3A',
-        red: '#E31837',
-        green: '#60FF42',
-        white: '#F6F2F6'
+        myblack: '#2D2626',
+        myfooter: '#453A3A',
+        myred: '#E31837',
+        mygreen: '#60FF42',
+        mywhite: '#F6F2F6'
       }
     }
   },

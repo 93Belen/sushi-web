@@ -1,5 +1,6 @@
 import './globals.css'
 import { Exo_2 } from 'next/font/google';
+import Header from './header';
 
 const font = Exo_2({
   variable: '--font',
@@ -8,6 +9,7 @@ const font = Exo_2({
   preload: false,
 })
 
+
 export const metadata = {
   title: 'Sushi',
   description: '',
@@ -15,8 +17,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${font.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${font.variable} bg-myblack text-mywhite w-screen min-h-screen h-fit overflow-x-hidden`}>
+      <body>
+        <Header />
+        {children}
+        </body>
     </html>
   )
 }
