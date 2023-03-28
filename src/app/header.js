@@ -46,7 +46,7 @@ export default function Header(){
         <header className='flex flex-row h-[10vh] justify-between box-border'>
             <div className='w-3/6 h-full inline-flex align-baseline'>
                 <Image className='h-full w-auto' width={100} src={require('../../imgs/logo.png')} />
-                <h1 className={`text-mygreen ${h1font.variable} align-baseline md:text-3xl text-lg mt-auto`}>Sushi House</h1>
+                <h1 className={`${h1font.variable} text-mygreen align-baseline md:text-3xl text-lg mt-auto font-h1font`}>Sushi House</h1>
             </div>
             <nav className='w-3/6 h-full justify-items-end pr-6 pt-3 box-border md:hidden'>
                 <div onClick={toggleMenu} className='w-fit ml-auto box-border'>

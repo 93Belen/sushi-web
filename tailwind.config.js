@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': 'var(--font)',
-        'h1font': 'var(--h1font'
+        'h1font': 'var(--h1font)'
       },
       colors: {
         myblack: '#2D2626',
