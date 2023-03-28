@@ -30,7 +30,7 @@
     }
 }
 
-  
+
   .neonText{
     text-shadow:
         0 0 1px #ADFF9E,
@@ -99,6 +99,15 @@
   
   .neonBorder{
          box-shadow:
+         0 0 1px #e95c71,
+         0 0 2px #e95b70,
+         0 0 4px #e45268,
+         0 0 7px #e45268,
+         0 0 10px #dd3951,
+         0 0 12px #e02a46,
+         0 0 14px #e01f3c,
+         0 0 15px #E31837,
+         inset
          0 0 1px #e95c71,
          0 0 2px #e95b70,
          0 0 4px #e45268,
