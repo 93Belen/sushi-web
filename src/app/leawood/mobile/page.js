@@ -4,8 +4,7 @@ export default function Page() {
 
 
     return (
-      <section className='box-border flex flex-col text-center h-full gap-16 p-6'>
-        <h1 className='text-3xl'>Leawood</h1>
+      <section className='flex md:hidden box-border flex-col text-center h-full gap-16 p-6'>
         <Link className='neonText text-xl text-mygreen' href='/'>See menu & order</Link>
         <Link className='text-mygreen text-xl' href='/'>Gallery</Link>
         <p className='text-lg'>Hours:<br/>
