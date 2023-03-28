@@ -58,29 +58,35 @@ useEffect(() => {
     <main className='flex flex-row justify-around min-h-[90vh] box-border'>
       <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
         <div className='neonBorder border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit border-2'>
-          <h2>Location</h2>
-          <Link id='link-one' href='/' className='text-mygreen neonText'>See menu & order</Link>
+          <h2>Leawood</h2>
+          <Link id='link-one' href='/leawood' className='text-mygreen neonText hidden md:block'>See menu & order</Link>
+          <Link id='link-one' href='/leawood/mobile' className='text-mygreen neonText md:hidden'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
         <div className='neonBorder border-2 border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit'>
-        <h2>Location</h2>
-        <Link href='/' className='text-mygreen neonTextFour'>See menu & order</Link>
+        <h2>Downes Grove</h2>
+        <Link href='/downesgrove' className='text-mygreen neonTextFour hidden md:block'>See menu & order</Link>
+        <Link href='/downesgrove/mobile' className='text-mygreen neonTextFour md:hidden'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
         <div className='neonBorder border-2 border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit'>
-        <h2>Location</h2>
-        <Link href='/' className='text-mygreen neonTextTwo'>See menu & order</Link>
+        <h2>Oak Park</h2>
+        <Link href='/oakpark' className='text-mygreen neonTextTwo hidden md:block'>See menu & order</Link>
+        <Link href='/oakpark/mobile' className='text-mygreen neonTextTwo md:hidden'>See menu & order</Link>
+
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
         <div className='neonBorder border-2 border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit'>
-        <h2>Location</h2>
-        <Link href='/' className='text-mygreen neonTextThree'>See menu & order</Link>
+        <h2>Westmont</h2>
+        <Link href='/westmont' className='text-mygreen neonTextThree hidden md:block'>See menu & order</Link>
+        <Link href='/westmont/mobile' className='text-mygreen neonTextThree md:hidden'>See menu & order</Link>
+
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
