@@ -55,8 +55,8 @@ useEffect(() => {
 
 
   return (
-    <main className='h-[85vh] box-border'>
-      <div className='flex flex-row justify-around h-[65vh] box-border'>
+    <main className='min-h-[90vh] box-border'>
+      <div className='flex flex-row justify-around h-[90vh] box-border'>
       <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
         <div className='neonBorder border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit border-2'>
           <h2 className='hidden md:block'>Leawood</h2>
@@ -102,8 +102,27 @@ useEffect(() => {
      </svg>
       </section>
       </div>
-      <footer className='h-[20vh] w-full bg-myfooter align-bottom'>
-        <p>Footer</p>
+      <footer className='h-auto w-full bg-myfooter align-bottom flex-row justify-evenly p-4 hidden md:flex'>
+        <p className='text-center'>Leawood:<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00
+        </p>
+        <p className='text-center'>Downes Grove:<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00
+        </p>
+        <p className='text-center'>Oak Park:<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00
+        </p>
+        <p className='text-center'>Westmont:<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00<br/>
+        Mon-Fri: 09:00 - 08:00
+        </p>
       </footer>
     </main>
   )
