@@ -56,14 +56,14 @@ export default function Header(){
                 </svg>
                 <section id='menu-display' className='w-screen h-[85vh] absolute top-[15vh] left-0 flex-col justify-evenly justify-items-center box-border pb-10 hidden bg-myblack'>
                     <Link className='m-auto text-2xl' href='/'>Home</Link>
-                    <Link className='m-auto text-2xl' href='/'>Guides</Link>
+                    <Link className='m-auto text-2xl' href='/guides'>Guides</Link>
                     <Link className='m-auto text-2xl' href='/'>Our Story</Link>
                 </section>
                 </div>
             </nav>
             <nav className='w-2/6 h-full justify-items-end pr-6 pt-3 box-border hidden md:flex'>
                 <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Home</Link>
-                <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Guides</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen' href='/guides'>Guides</Link>
                 <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Our Story</Link>
             </nav>
             <nav className='border-2 border-white w-3/6 h-full hidden'>

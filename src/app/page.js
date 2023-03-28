@@ -15,11 +15,11 @@ export default function Home() {
     document.getElementById('chopstick-two').style.transform = 'rotate(5deg)'
     document.getElementById('red-stripe-one').style.transform = 'translate(-5.9px, 2.4px)'
     document.getElementById('red-stripe-two').style.transform = 'translate(8px, 1px)'
-    document.getElementById('chopstick-one').style.transitionDuration = '3s'
-    document.getElementById('chopstick-two').style.transitionDuration = '3s'
-    document.getElementById('red-stripe-two').style.transitionDuration = '3s'
-    document.getElementById('red-stripe-one').style.transitionDuration = '3s'
-    setTimeout(() => {setMove(() => false)}, 4000)
+    document.getElementById('chopstick-one').style.transitionDuration = '2.5s'
+    document.getElementById('chopstick-two').style.transitionDuration = '2.5s'
+    document.getElementById('red-stripe-two').style.transitionDuration = '2.5s'
+    document.getElementById('red-stripe-one').style.transitionDuration = '2.5s'
+    setTimeout(() => {setMove(() => false)}, 2500)
     
 
   }
@@ -29,11 +29,11 @@ export default function Home() {
     document.getElementById('chopstick-two').style.transform = 'rotate(0deg)'
     document.getElementById('red-stripe-two').style.transform = 'translate(0px)'
     document.getElementById('red-stripe-two').style.transform = 'translate(0px)'
-    document.getElementById('chopstick-one').style.transitionDuration = '3s'
-    document.getElementById('chopstick-two').style.transitionDuration = '3s'
-    document.getElementById('red-stripe-two').style.transitionDuration = '3s'
-    document.getElementById('red-stripe-one').style.transitionDuration = '3s'
-    setTimeout(() => {setMove(() => true)}, 4000)
+    document.getElementById('chopstick-one').style.transitionDuration = '2.5s'
+    document.getElementById('chopstick-two').style.transitionDuration = '2.5s'
+    document.getElementById('red-stripe-two').style.transitionDuration = '2.5s'
+    document.getElementById('red-stripe-one').style.transitionDuration = '2.5s'
+    setTimeout(() => {setMove(() => true)}, 2500)
 
   }
 
