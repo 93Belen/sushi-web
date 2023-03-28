@@ -63,12 +63,12 @@ useEffect(() => {
 
   return (
     <main className='flex flex-row justify-around min-h-[85vh] box-border'>
-      <section className='border-2 border-white flex flex-col gap-10 justify-items-center align-middle w-4/6 pt-16 text-center'>
+      <section className='flex flex-col gap-10 justify-items-center align-middle w-4/6 pt-16 text-center'>
         <h2 className='text-3xl'>Guides</h2>
-        <div className='flex flex-row justify-evenly border-2 h-[10vh] border-white w-full text-center'>
-            <Link className='m-auto' href='/'>Sushi Guide</Link>
-            <Link className='m-auto' href='/'>Ingredients Guide</Link>
-            <Link className='m-auto' href='/'>Sake Guide</Link>
+        <div className='flex flex-row justify-evenly  h-[10vh] w-full text-center'>
+            <Link className='m-auto hover:text-mygreen' href='/guides'>Sushi Guide</Link>
+            <Link className='m-auto hover:text-mygreen' href='/guides/ingridients'>Ingredients Guide</Link>
+            <Link className='m-auto hover:text-mygreen' href='/guides/sake'>Sake Guide</Link>
         </div>
             {children}
       </section>
