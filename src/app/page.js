@@ -54,7 +54,7 @@ useEffect(() => {
 
   return (
     <main className='flex flex-row justify-around min-h-[90vh] box-border'>
-      <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 p-10 justify-items-center align-middle w-4/6 pt-16'>
+      <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
         <div className='neonBorder border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit border-2'>
           <h2>Location</h2>
           <Link id='link-one' href='/' className='text-mygreen neonText'>See menu & order</Link>
