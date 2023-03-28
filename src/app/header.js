@@ -43,12 +43,12 @@ export default function Header(){
        
     }
     return (
-        <header className='flex flex-row h-[10vh] justify-between box-border'>
-            <div className='w-3/6 h-full inline-flex align-baseline'>
+        <header className='flex flex-row h-[10vh] justify-between box-border p-2'>
+            <div className='w-4/6 h-full inline-flex align-baseline'>
                 <Image className='h-full w-auto' width={100} src={require('../../imgs/logo.png')} />
                 <h1 className={`${h1font.variable} text-mygreen align-baseline md:text-3xl text-lg mt-auto font-h1font`}>Sushi House</h1>
             </div>
-            <nav className='w-3/6 h-full justify-items-end pr-6 pt-3 box-border md:hidden'>
+            <nav className='w-2/6 h-full justify-items-end pr-6 pt-3 box-border md:hidden'>
                 <div onClick={toggleMenu} className='w-fit ml-auto box-border'>
                 <svg id='button-menu' width="50" height="50" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line x1="2.5" y1="2.5" x2="25.5" y2="2.5" stroke="#E31837" stroke-width="5" stroke-linecap="round"/>
@@ -60,6 +60,11 @@ export default function Header(){
                     <Link className='m-auto text-2xl' href='/'>Our Story</Link>
                 </section>
                 </div>
+            </nav>
+            <nav className='w-2/6 h-full justify-items-end pr-6 pt-3 box-border hidden md:flex'>
+                <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Home</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Guides</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Our Story</Link>
             </nav>
             <nav className='border-2 border-white w-3/6 h-full hidden'>
                 
