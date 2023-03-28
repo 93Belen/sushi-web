@@ -64,7 +64,7 @@ useEffect(() => {
   return (
     <main className='flex flex-row justify-around min-h-[85vh] box-border'>
       <section className='flex flex-col gap-10 justify-items-center align-middle w-4/6 pt-16 text-center'>
-        <h2 className='text-3xl neonText text-mygreen'>Guides</h2>
+        <h2 className='text-3xl neonText'>Guides</h2>
         <div className='flex flex-row justify-evenly  h-[10vh] w-full text-center'>
             <Link className='m-auto hover:text-mygreen' href='/guides'>Sushi Guide</Link>
             <Link className='m-auto hover:text-mygreen' href='/guides/ingridients'>Ingredients Guide</Link>
