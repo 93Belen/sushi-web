@@ -63,7 +63,6 @@ useEffect(() => {
   return (
     <main className='flex flex-row justify-around min-h-[90vh] box-border'>
       <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
-      <h2 className='ml-auto justify-self-center text-6xl'>Guides</h2>
       </section>
       <section className='hidden md:block w-2/6 justify-items-center align-middle p-2 content-center'>
         <svg className='m-auto h-full' width="70%" height="auto" viewBox="0 0 332 260" fill="none" xmlns="http://www.w3.org/2000/svg">

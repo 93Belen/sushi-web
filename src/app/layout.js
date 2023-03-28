@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${font.variable} font-sans bg-myblack text-mywhite w-screen min-h-screen h-fit overflow-x-hidden`}>
-      <body>
+      <body className='flex flex-col gap-10'>
         <Header />
         {children}
         </body>
