@@ -29,3 +29,85 @@
         width: 0;
     }
 }
+
+  
+  .neonText{
+    text-shadow:
+        0 0 1px #ADFF9E,
+        0 0 2px #86FF70;
+    animation: flicker 2s infinite;
+  }
+  .neonTextTwo{
+    text-shadow:
+        0 0 1px #ADFF9E,
+        0 0 2px #86FF70;
+    animation: flicker 2.5s infinite;
+  }
+  .neonTextThree{
+    text-shadow:
+        0 0 1px #ADFF9E,
+        0 0 2px #86FF70;
+    animation: flicker 3s infinite;
+  }
+  .neonTextFour{
+    text-shadow:
+        0 0 1px #ADFF9E,
+        0 0 2px #86FF70;
+    animation: flicker 2.8s infinite;
+  }
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 10px #fff,
+        0 0 17px #fff,
+        0 0 40px #ADFF9E,
+        0 0 80px #86FF70,
+        0 0 90px #60FF42,
+        0 0 100px #39FF14,
+        0 0 150px #24E500;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+  @keyframes flickerRed {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        box-shadow:
+        0 0 1px #e95c71,
+        0 0 2px #e95b70,
+        0 0 4px #e45268,
+        0 0 7px #e45268,
+        0 0 10px #dd3951,
+        0 0 12px #e02a46,
+        0 0 14px #e01f3c,
+        0 0 15px #E31837;
+    
+    }
+    
+    20%, 24%, 55% {        
+        box-shadow: none;
+    }    
+  }
+  
+  .neonBorder{
+         box-shadow:
+         0 0 1px #e95c71,
+         0 0 2px #e95b70,
+         0 0 4px #e45268,
+         0 0 7px #e45268,
+         0 0 10px #dd3951,
+         0 0 12px #e02a46,
+         0 0 14px #e01f3c,
+         0 0 15px #E31837;
+  }
+ 
+
+

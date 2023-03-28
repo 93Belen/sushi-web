@@ -51,37 +51,37 @@ useEffect(() => {
 
   return (
     <main className='flex flex-row justify-around min-h-[90vh] box-border'>
-      <section className='border-2 border-white flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 p-10 justify-items-center align-middle w-4/6'>
-        <div className='border-2 border-myred w-full rounded-xl p-6 text-center h-fit'>
+      <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 p-10 justify-items-center align-middle w-4/6'>
+        <div id='border-one' className='neonBorder border-2 border-myred border-opacity-5 w-full rounded-xl p-6 text-center h-fit'>
           <h2>Location</h2>
-          <Link href='/' className='text-mygreen'>See menu & order</Link>
+          <Link id='link-one' href='/' className='text-mygreen neonText'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
-        <div className='border-2 border-myred w-full rounded-xl p-6 text-center h-fit'>
+        <div className='border-2 neonBorder border-myred border-opacity-5 w-full rounded-xl p-6 text-center h-fit'>
         <h2>Location</h2>
-        <Link href='/' className='text-mygreen'>See menu & order</Link>
+        <Link href='/' className='text-mygreen neonTextFour'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
-        <div className='border-2 border-myred w-full rounded-xl p-6 text-center h-fit'>
+        <div className='border-2 neonBorder border-myred border-opacity-5 w-full rounded-xl p-6 text-center h-fit'>
         <h2>Location</h2>
-        <Link href='/' className='text-mygreen'>See menu & order</Link>
+        <Link href='/' className='text-mygreen neonTextTwo'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
-        <div className='border-2 border-myred w-full rounded-xl p-6 text-center h-fit'>
+        <div className='border-2 neonBorder border-myred border-opacity-5 w-full rounded-xl p-6 text-center h-fit'>
         <h2>Location</h2>
-        <Link href='/' className='text-mygreen'>See menu & order</Link>
+        <Link href='/' className='text-mygreen neonTextThree'>See menu & order</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace
           Building 40</p>
         </div>
       </section>
-      <section className='hidden md:block border-white border-2 w-2/6 justify-items-center align-middle p-2 content-center'>
+      <section className='hidden md:block w-2/6 justify-items-center align-middle p-2 content-center'>
       <svg className='m-auto h-full' width="50%" height="auto" viewBox="0 0 175 266" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path id='chopstick-one' d="M102.074 261.206L41.5441 25.644C40.9286 23.2485 42.3908 20.8122 44.7943 20.2286C47.196 19.6455 49.6111 21.1373 50.1648 23.5459L104.656 260.578C104.819 261.287 104.381 261.995 103.674 262.167C102.968 262.339 102.255 261.911 102.074 261.206Z" fill="#2D2626" stroke="#F6F2F6"/>
       <path id='red-stripe-one' d="M49.735 59.5485L49.0639 56.9355C49.0639 56.9355 51.354 55.6136 53.2838 55.1451C55.2135 54.6766 57.8666 54.7743 57.8666 54.7743L58.1616 56.1147L58.471 57.4454C55.378 57.3271 52.6714 57.9921 49.735 59.5485Z" fill="#E31837"/>
