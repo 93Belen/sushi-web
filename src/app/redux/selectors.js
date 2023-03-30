@@ -1,0 +1,1 @@
+export const selectMwnu = (state) => state.menu;
