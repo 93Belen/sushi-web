@@ -2,7 +2,7 @@
 
 import { useServerInsertedHTML } from "next/navigation";
 import { CssBaseline, NextUIProvider } from "@nextui-org/react";
-import ReduxProvider from "./reduxprovider";
+import ReduxProvider from "./reduxprovider.js";
 
 
 
