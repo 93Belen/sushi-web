@@ -19,6 +19,15 @@ const h1font = Gruppo({
 
 
 export default function Header(){
+
+    // CALL MENU FROM STRIPE AND STORE IT IN REDUX
+    const getMenu = async() => {
+        const response = await fetch('/api/menu');
+        const jsonResponse = await response.json();
+        console.log(jsonResponse);
+    }
+    getMenu();
+
     const [open, setOpen] = useState(false);
     const toggleMenu = () => {
         const logo = document.getElementById('button-menu');
