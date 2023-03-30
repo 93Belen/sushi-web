@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Gruppo } from 'next/font/google';
 import { useState } from "react";
 import Link from "next/link";
+import { useDispatch } from "react-redux";
+import { changeMenu } from "./redux/menu";
 
 
 
@@ -19,14 +21,67 @@ const h1font = Gruppo({
 
 
 export default function Header(){
+    const dispatch = useDispatch();
 
     // CALL MENU FROM STRIPE AND STORE IT IN REDUX
     const getMenu = async() => {
         const response = await fetch('/api/menu');
         const jsonResponse = await response.json();
-        console.log(jsonResponse);
+        return jsonResponse
     }
-    getMenu();
+    getMenu().then(response => {
+        const obj = {
+            leawood: {
+                favorites: [],
+                appetizers: [],
+                soups_salads: [],
+                sushi_dinner: [],
+                entrees: [],
+                noodles: [],
+                kids: [],
+                desserts: [],
+                party_trays: []
+            },
+            downes_grove: {
+                favorites: [],
+                appetizers: [],
+                soups_salads: [],
+                sushi_dinner: [],
+                entrees: [],
+                noodles: [],
+                kids: [],
+                desserts: [],
+                party_trays: []
+            },
+            oak_park: {
+                favorites: [],
+                appetizers: [],
+                soups_salads: [],
+                sushi_dinner: [],
+                entrees: [],
+                noodles: [],
+                kids: [],
+                desserts: [],
+                party_trays: []
+            },
+            westmont: {
+                favorites: [],
+                appetizers: [],
+                soups_salads: [],
+                sushi_dinner: [],
+                entrees: [],
+                noodles: [],
+                kids: [],
+                desserts: [],
+                party_trays: []
+            }
+        };
+        const arrOfItems = response.data;
+        for(let i = 0; i < arrOfItems.length; i++){
+            obj[arrOfItems[i].metadata.location][arrOfItems[i].metadata.section].push(arrOfItems[i])
+        }
+        dispatch(changeMenu(obj))
+    });
 
     const [open, setOpen] = useState(false);
     const toggleMenu = () => {

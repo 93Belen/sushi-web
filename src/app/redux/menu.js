@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const options = {
     name: 'menu',
-    initialState: [],
+    initialState: {},
     reducers: {
         changeMenu: (state, action) => {
             state = action.payload

@@ -1,1 +1,1 @@
-export const selectMwnu = (state) => state.menu;
+export const selectMenu = (state) => state.menu;

@@ -4,8 +4,9 @@ import Link from "next/link";
 
 
 
-export default function Layout({children}) {
 
+export default function Layout({children}) {
+ 
   return (
     <div>
     <main className='justify-around min-h-[85vh] box-border text-center'>
