@@ -30,6 +30,7 @@ export default function Header(){
         return jsonResponse
     }
     getMenu().then(response => {
+        console.log(response)
         const obj = {
             leawood: {
                 favorites: [],
@@ -107,7 +108,7 @@ export default function Header(){
        
     }
     return (
-        <header className='flex flex-row h-[10vh] justify-between box-border p-2'>
+        <header className='flex flex-row h-[10vh] justify-between box-border p-2 text-mywhite'>
             <div className='w-4/6 h-full inline-flex align-baseline'>
                 <Image className='h-full w-auto' width={100} src={require('../../imgs/logo.png')} />
                 <h1 className={`${h1font.variable} text-mygreen align-baseline md:text-3xl text-lg mt-auto font-h1font`}>Sushi House</h1>
@@ -119,16 +120,16 @@ export default function Header(){
                     <line x1="2.5" y1="11.5" x2="25.5" y2="11.5" stroke="#E31837" stroke-width="5" stroke-linecap="round"/>
                 </svg>
                 <section id='menu-display' className='w-screen h-[85vh] absolute top-[15vh] left-0 flex-col justify-evenly justify-items-center box-border pb-10 hidden bg-myblack'>
-                    <Link className='m-auto text-2xl' href='/'>Home</Link>
-                    <Link className='m-auto text-2xl' href='/guides'>Guides</Link>
-                    <Link className='m-auto text-2xl' href='/about'>Our Story</Link>
+                    <Link className='m-auto text-2xl text-mywhite' href='/'>Home</Link>
+                    <Link className='m-auto text-2xl text-mywhite' href='/guides'>Guides</Link>
+                    <Link className='m-auto text-2xl text-mywhite' href='/about'>Our Story</Link>
                 </section>
                 </div>
             </nav>
             <nav className='w-2/6 h-full justify-items-end pr-6 pt-3 box-border hidden md:flex'>
-                <Link className='m-auto text-2xl hover:text-mygreen' href='/'>Home</Link>
-                <Link className='m-auto text-2xl hover:text-mygreen' href='/guides'>Guides</Link>
-                <Link className='m-auto text-2xl hover:text-mygreen' href='/about'>Our Story</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen text-mywhite' href='/'>Home</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen text-mywhite' href='/guides'>Guides</Link>
+                <Link className='m-auto text-2xl hover:text-mygreen text-mywhite' href='/about'>Our Story</Link>
             </nav>
             <nav className='border-2 border-white w-3/6 h-full hidden'>
                 

@@ -9,7 +9,7 @@ export default function Layout({children}) {
  
   return (
     <div>
-    <main className='justify-around min-h-[85vh] box-border text-center'>
+    <main className='justify-around min-h-[85vh] box-border text-center text-mywhite'>
     <h1 className='text-3xl neonText'>Leawood</h1>
     <div className='hidden md:flex flex-row justify-evenly  h-[10vh] w-full text-center'>
             <Link className='m-auto hover:text-mygreen' href='/'>Leawood Favorites</Link>
