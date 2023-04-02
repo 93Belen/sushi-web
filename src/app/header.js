@@ -79,10 +79,12 @@ export default function Header(){
         };
         const arrOfItems = response.data;
         for(let i = 0; i < arrOfItems.length; i++){
-            obj[arrOfItems[i].metadata.location][arrOfItems[i].metadata.section].push(arrOfItems[i])
+            const section = obj[arrOfItems[i].metadata.location][arrOfItems[i].metadata.section].push(arrOfItems[i])
         }
+        return obj;
+    }).then(obj => {
         dispatch(changeMenu(obj))
-    });
+    })
 
     const [open, setOpen] = useState(false);
     const toggleMenu = () => {
