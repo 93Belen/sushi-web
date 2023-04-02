@@ -8,7 +8,7 @@ export default function Layout({children}) {
 
   return (
     <div>
-    <main className='justify-around min-h-[85vh] box-border text-center text-mywhite'>
+    <main className='justify-around min-h-[85vh] box-border text-center text-mywhite p-12'>
     <h1 className='text-3xl neonText'>Downes Grove</h1>
     <div className='hidden md:flex flex-row justify-evenly  h-[10vh] w-full text-center'>
             <Link className='m-auto hover:text-mygreen' href='/downesgrove/favorites'>Downes Grove Favorites</Link>
