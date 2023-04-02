@@ -5,10 +5,10 @@ import { useSelector } from "react-redux"
 
 export default function Page(){
     const menu = useSelector(selectMenu)
-    const fav = menu.leawood.favorites;
+    const sd = menu.leawood.sushi_dinner;
     const displayCards = () => {
         const arr = [];
-        fav.forEach(element => {
+        sd.forEach(element => {
             arr.push(
                 <div className='p-4 border-2 border-mywhite rounded-xl m-4'>
                     <p className='text-mygreen'>{element.name}</p>

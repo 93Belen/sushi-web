@@ -60,7 +60,7 @@ useEffect(() => {
       <section className='flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-10 md:p-10 justify-items-center align-middle w-4/6 pt-16'>
         <div className='neonBorder border-myred bg-opacity-20 w-full rounded-xl p-6 text-center h-fit border-2'>
           <h2 className='hidden md:block'>Leawood</h2>
-          <Link id='link-one' href='/leawood' className='text-mygreen neonText hidden md:block'>See menu & order</Link>
+          <Link id='link-one' href='/leawood/favorites' className='text-mygreen neonText hidden md:block'>See menu & order</Link>
           <Link id='link-one' href='/leawood/mobile' className='text-mygreen neonText md:hidden'>Leawood</Link>
           <p>Phone: 928493844<br/>
           6913 W 123 Terrace

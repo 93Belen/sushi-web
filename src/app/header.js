@@ -38,10 +38,7 @@ export default function Header(){
                 soups_salads: [],
                 sushi_dinner: [],
                 entrees: [],
-                noodles: [],
-                kids: [],
-                desserts: [],
-                party_trays: []
+                noodles: []
             },
             downes_grove: {
                 favorites: [],
@@ -49,10 +46,7 @@ export default function Header(){
                 soups_salads: [],
                 sushi_dinner: [],
                 entrees: [],
-                noodles: [],
-                kids: [],
-                desserts: [],
-                party_trays: []
+                noodles: []
             },
             oak_park: {
                 favorites: [],
@@ -60,10 +54,7 @@ export default function Header(){
                 soups_salads: [],
                 sushi_dinner: [],
                 entrees: [],
-                noodles: [],
-                kids: [],
-                desserts: [],
-                party_trays: []
+                noodles: []
             },
             westmont: {
                 favorites: [],
@@ -71,10 +62,7 @@ export default function Header(){
                 soups_salads: [],
                 sushi_dinner: [],
                 entrees: [],
-                noodles: [],
-                kids: [],
-                desserts: [],
-                party_trays: []
+                noodles: []
             }
         };
         const arrOfItems = response.data;

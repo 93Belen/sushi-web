@@ -13,14 +13,11 @@ export default function Layout({children}) {
     <h1 className='text-3xl neonText'>Leawood</h1>
     <div className='hidden md:flex flex-row justify-evenly  h-[10vh] w-full text-center'>
             <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/favorites'>Leawood Favorites</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Appetizers</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Soups & Salads</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Sushi Dinner</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Entrees</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Noodles</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Kids</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Desserts</Link>
-            <Link className='m-auto text-mywhite hover:text-mygreen' href='/'>Party Trays</Link>
+            <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/appetizers'>Appetizers</Link>
+            <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/soups_salads'>Soups & Salads</Link>
+            <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/sushi_dinner'>Sushi Dinner</Link>
+            <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/entrees'>Entrees</Link>
+            <Link className='m-auto text-mywhite hover:text-mygreen' href='/leawood/noodles'>Noodles</Link>
     </div>
     {children}
     </main>
