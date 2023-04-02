@@ -11,12 +11,12 @@ export default function Layout({children}) {
     <main className='justify-around min-h-[85vh] box-border text-center text-mywhite p-12'>
     <h1 className='text-3xl neonText'>Downes Grove</h1>
     <div className='hidden md:flex flex-row justify-evenly  h-[10vh] w-full text-center'>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/favorites'>Downes Grove Favorites</Link>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/appetizers'>Appetizers</Link>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/soups_salads'>Soups & Salads</Link>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/sushi_dinner'>Sushi Dinner</Link>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/entrees'>Entrees</Link>
-            <Link className='m-auto hover:text-mygreen' href='/downesgrove/noodles'>Noodles</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/favorites'>Downes Grove Favorites</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/appetizers'>Appetizers</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/soups_salads'>Soups & Salads</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/sushi_dinner'>Sushi Dinner</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/entrees'>Entrees</Link>
+            <Link className='m-auto hover:text-mygreen text-mywhite' href='/downesgrove/noodles'>Noodles</Link>
     </div>
     {children}
     </main>
